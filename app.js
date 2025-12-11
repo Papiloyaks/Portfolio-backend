@@ -21,10 +21,6 @@ mongoose
   .catch((err) => console.log("❌ MongoDB Connection Error:", err));
 
 app.use("/api/contact", contactRouter);
-const themeRoute = require("./routes/theme.route");
-app.use("/api/theme", themeRoute);
-
-
 
 
 
